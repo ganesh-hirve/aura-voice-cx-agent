@@ -31,4 +31,15 @@ public class Order {
 
     protected Order() {
     }
+
+    public String getOrderId() { return orderId; }
+    public String getCustomerName() { return customerName; }
+    public String getProduct() { return product; }
+    public BigDecimal getAmount() { return amount; }
+    public String getStatus() { return status; }
+    public String getCourier() { return courier; }
+    public String getTrackingNumber() { return trackingNumber; }
+    public LocalDate getExpectedDelivery() { return expectedDelivery; }
+    public LocalDateTime getDeliveredAt() { return deliveredAt; }
+    public LocalDateTime getCreatedAt() { return createdAt; }
 }
