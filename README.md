@@ -15,7 +15,7 @@ Alternatively copy `.env.example` as a reference for the variable names; Spring 
 
 ## Render configuration
 
-In the Render service dashboard, add `GEMINI_API_KEY` and `SARVAM_API_KEY` as secret environment variables. Add `GEMINI_MODEL` if you want to override the configured default (`gemini-3.5-flash-lite`). Optional tuning variables are `GEMINI_CONNECT_TIMEOUT`, `GEMINI_READ_TIMEOUT`, `GEMINI_MAX_TOOL_ITERATIONS`, `SARVAM_CONNECT_TIMEOUT`, and `SARVAM_READ_TIMEOUT`. Do not place a real key in source control or build logs.
+In the Render service dashboard, add `GEMINI_API_KEY` and `SARVAM_API_KEY` as secret environment variables. Set `FRONTEND_ORIGIN` to the deployed frontend's exact origin (default: `https://aura-skin-care-frontend.vercel.app`). Add `GEMINI_MODEL` if you want to override the configured default (`gemini-3.5-flash-lite`). Optional tuning variables are `GEMINI_CONNECT_TIMEOUT`, `GEMINI_READ_TIMEOUT`, `GEMINI_MAX_TOOL_ITERATIONS`, `SARVAM_CONNECT_TIMEOUT`, and `SARVAM_READ_TIMEOUT`. Do not place a real key in source control or build logs.
 
 ## Chat endpoint
 
